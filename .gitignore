@@ -1,0 +1,24 @@
+# 忽略Python编译文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 忽略虚拟环境
+venv/
+.env/
+.env/
+
+# 忽略数据文件（如果不需要上传）
+*.csv
+*.xlsx
+*.json
+*.txt
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# 忽略日志文件
+*.log
