@@ -1,6 +1,5 @@
 import streamlit as st
 import random
-from pypinyin import lazy_pinyin, Style, pinyin
 
 # ---------- 页面配置 ----------
 st.set_page_config(page_title="普通话练习", page_icon="📖")
@@ -104,4 +103,3 @@ else:
     # 额外提示（规则说明）
     st.markdown("---")
     st.caption("💡 规则：每次生成的汉字均不会与上一个重复，但可以隔代重复出现。")
-    
