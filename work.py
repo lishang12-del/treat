@@ -1,6 +1,6 @@
 import streamlit as st
 import random
-
+from pypinyin import lazy_pinyin, Style, pinyin
 # ---------- 页面配置 ----------
 st.set_page_config(page_title="普通话练习", page_icon="📖")
 
